@@ -1,3 +1,4 @@
+# Author: Marlon Dias
 # coding: utf-8
 
 import math, sys
@@ -7,7 +8,7 @@ from xml.dom import minidom
 from collections import defaultdict
 
 # Name of the authors
-professors = {'Berthier Ribeiro-Neto', 'Nivio Ziviani' ,'Rodrygo Santos'}
+professors = {'W. Bruce Croft', 'Jamie Callan' ,'Ben Carterette'}
 
 # Get DBLP's key
 def get_urlpt(name):
